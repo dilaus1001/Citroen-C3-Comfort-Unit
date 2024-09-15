@@ -1,0 +1,40 @@
+door locked/unlocked via key (instantaneous D7),F6 (INDICATOR?),00,00,08,80,3C,1D,C8,C3,7B,7B,23
+,50D (frecce),00,00,07,00,00,00,00,00,6B,80,
+,612 (LIGHT),00,00,06,73,21,01,2A,00,00,,
+spia luci posizione on ,128 (HEADLIGHT 2),00,00,08,60,00,00,00,80,80,B0,01
+spia luci posizione off,128 (HEADLIGHT 2),00,00,08,60,00,00,00,00,80,B0,01
+spi freccia dx on,128 (HEADLIGHT 2),00,00,08,60,00,00,00,04,80,B0,01
+luci posizione on (not clear),36 (HEADLIGHT),00,00,08,00,00,86,2A,01,80,00,A0
+luci posizion off (not clear),36 (HEADLIGHT),00,00,08,00,00,86,0F,01,80,00,A0
+lock door spia,128 (HEADLIGHT 2),00,00,08,00,00,00,00,06,80,B0,01
+freccia dx on !!,F6 (INDICATOR?),00,00,08,8E,4B,1D,C6,86,9B,9B,21
+frecce on,E6 (HEADLIGHT 3),00,00,07,00,00,00,00,00,68,80,
+frecce off,F6 (INDICATOR?),00,00,08,88,4A,1D,C6,86,9B,9B,20
+frecce off,E6 (HEADLIGHT 3),00,00,07,00,00,00,00,00,69,80,
+frecce off,128 (HEADLIGHT 2),00,00,08,60,00,00,00,00,80,B0,01
+anabbaglianti on,128 (HEADLIGHT 2),00,00,08,60,10,00,00,C0,80,B0,01
+,36 (HEADLIGHT),00,00,08,00,00,06,2A,01,80,00,A0
+,128 (HEADLIGHT 2),00,00,08,60,00,00,00,80,80,B0,01
+,E6 (HEADLIGHT 3),00,00,07,00,00,00,00,00,6C,80,
+,E6 (HEADLIGHT 3),00,00,07,00,00,00,00,00,68,80,
+abbaglianti on spia,128 (HEADLIGHT SPIE),00,00,08,60,00,00,00,A0,80,B0,01
+,E6 (HEADLIGHT 3),00,00,07,00,00,00,00,00,68,80,
+All Doors Closed,220 (Handbreak),00,00,02,00,00,,,,,,
+FL Door Open,220 (Handbreak),00,00,02,80,00,,,,,,
+FR Door Open,220 (Handbreak),00,00,02,40,00,,,,,,
+RR Door Open,220 (Handbreak),00,00,02,10,00,,,,,,
+RL Door Open,220 (Handbreak),00,00,02,20,00,,,,,,
+FL and FR doors open,220 (Handbreak),00,00,02,C0,00,,,,,,
+FL and RL doors open ,220 (Handbreak),00,00,02,A0,00,,,,,,
+FL and RR doors open,220 (Handbreak),00,00,02,90,00,,,,,,
+FR and RL doors open,220 (Handbreak),00,00,02,60,00,,,,,,
+FR and RR doors open ,220 (Handbreak),00,00,02,50,00,,,,,,
+RL and RR doors open ,220 (Handbreak),00,00,02,30,00,,,,,,
+FR and RL and RR doors open,220 (Handbreak),00,00,02,70,00,,,,,,
+FL and FR and RL doors open,220 (Handbreak),00,00,02,E0,00,,,,,,
+FR and RL and RR doors open,220 (Handbreak),00,00,02,B0,00,,,,,,
+FR and FL and RR doors open ,220 (Handbreak),00,00,02,D0,00,,,,,,
+Engine ON,361,00,00,06,09,00,02,20,10,00,,
+Engine OFF,361,00,00,06,01,00,02,20,10,00,,
+KEY ON,161 (IGNITION),00,00,07,00,00,4C,26,00,00,60,
+KEY OFF,161 (IGNITION),00,00,07,00,00,4C,00,00,00,60,

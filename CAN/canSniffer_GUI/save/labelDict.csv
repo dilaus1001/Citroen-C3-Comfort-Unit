@@ -1,0 +1,37 @@
+161,IGNITION
+361 ,ENGINE
+167,STEER COMMAND
+128,HEADLIGHT 2
+50D,frecce
+208,pedals
+612,LIGHT
+412 (Door),FL open D6 = 0A
+201,BC_inc
+621,Immo
+160,Remote
+257,SDM
+252,BCM
+254,REC
+253,UEC
+155,Climate
+108,RPM
+220,DOOR
+115,Pedals
+360,Break
+260,Turninglight
+175,WheelJoys
+415,RightWindow
+235,Brightness
+350,FrontFogLight
+23A,LightSwitch
+500,WheelPos?
+420,FrontRightDoor
+405,FrontLeftDoor
+230,RearLeftDoor
+4E8,REC
+506,BCM
+412,Door
+612 (LIGHT),position light
+36,HEADLIGHT
+F6,INDICATOR?
+E6,HEADLIGHT 3
