@@ -1,0 +1,10 @@
+{
+  "additionalFiles": "../../..,../../..,../..,../..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "build.warn_data_percentage=75",
+  "fqbn": "esp32:esp32:esp32da:PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
+  "hardwareFolders": "/Users/francesco/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/francesco/Documents/Arduino/libraries",
+  "sketchLocation": "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit"
+}

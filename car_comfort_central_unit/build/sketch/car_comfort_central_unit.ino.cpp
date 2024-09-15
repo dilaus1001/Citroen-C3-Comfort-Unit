@@ -1,3 +1,5 @@
+#include <Arduino.h>
+#line 1 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
 #include <SPI.h>
 #include <mcp2515.h>
 #include "functions.h"
@@ -45,6 +47,17 @@ bool SeparateControl = true;
 bool DoorLocked = false;
 bool KeyPressed = false;
 
+#line 48 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
+bool isInList(uint8_t value, const uint8_t* list, size_t size);
+#line 58 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
+void setSeparateControl(bool state);
+#line 63 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
+void processDoorLockStatus(const struct can_frame &canMsg, unsigned long currentMillis);
+#line 101 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
+void setup();
+#line 123 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
+void loop();
+#line 48 "/Users/francesco/Repository/Citroen-C3-Comfort-Unit/car_comfort_central_unit/car_comfort_central_unit.ino"
 bool isInList(uint8_t value, const uint8_t* list, size_t size) {
   for (size_t i = 0; i < size; i++) {
     if (list[i] == value) {
